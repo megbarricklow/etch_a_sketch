@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Etch a Sketch</title>
+    <script src="script.js" async></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <h1 id="title">Etch a Sketch</h1>
+    <div class="btns">
+        <button id="erase">Erase</button>
+        <button id="black">Black</button>
+        <button id="rgb">RGB</button>
+        <div class="chooseColor">
+            <input type="color" id="color" value="#e66465">
+        </div>
+        <div class="sliderAndValue">
+            <input type="range" min="2" max="100" value="16" id="slider">
+            <p class="value">16</p>
+        </div>
+    </div>  
+    <div class="grid"></div>
+    <footer>Created by <a href="https://github.com/mbarricklow">Meghan Barricklow</a></footer>
+</body>
+</html>
